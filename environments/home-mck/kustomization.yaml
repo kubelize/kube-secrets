@@ -4,15 +4,11 @@ kind: Kustomization
 resources:
 
 # operators
-  - ../../secrets/home-mck/operators/connectivity/teleport-kube-agent/teleport-kube-agent-join-token.yaml
-  - ../../secrets/home-mck/operators/monitoring/alertmanager/alertmanager-config.yaml
-  - ../../secrets/home-mck/operators/storage/etcd-backup/etcd-backup-config-env.yaml
-  - ../../secrets/home-mck/operators/storage/longhorn-backup/longhorn-backup-config-env.yaml
-  - ../../secrets/home-dhe/operators/storage/longhorn-backup/longhorn-backup-config-env.yaml
+  - ../../secrets/home-mck/operators/connectivity/
+  - ../../secrets/home-mck/operators/monitoring/
+  - ../../secrets/home-mck/operators/storage/
 
 # projects
-  - ../../secrets/home-mck/projects/gameservers/minecraft/cf-api-token.yaml
-  - ../../secrets/home-mck/projects/gameservers/minecraft/minecraft-rcon-password.yaml
-  - ../../secrets/home-mck/projects/nextcloud/nextcloud-mariadb-auth.yaml
-  - ../../secrets/home-mck/projects/nextcloud/nextcloud-redis-auth.yaml
-  - ../../secrets/home-mck/projects/web-rcon/rcon-config.yaml
+  - ../../secrets/home-mck/projects/gameservers/minecraft/
+  - ../../secrets/home-mck/projects/nextcloud/
+  - ../../secrets/home-mck/projects/web-rcon/
