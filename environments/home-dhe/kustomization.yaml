@@ -3,13 +3,15 @@ kind: Kustomization
 
 resources:
 
-# operators
-  - ../../secrets/home-dhe/operators/connectivity/teleport-kube-agent/teleport-kube-agent-join-token.yaml
-  - ../../secrets/home-dhe/operators/gitops/renovate/renovate-token.yaml
-  - ../../secrets/home-dhe/operators/monitoring/alertmanager/alertmanager-config.yaml
-  - ../../secrets/home-dhe/operators/storage/etcd-backup/etcd-backup-config-env.yaml
-  - ../../secrets/home-dhe/operators/storage/longhorn-backup/longhorn-backup-config-env.yaml
 
-# projects
-  - ../../secrets/home-dhe/projects/nextcloud/nextcloud-mariadb-auth.yaml
-  - ../../secrets/home-dhe/projects/nextcloud/nextcloud-redis-auth.yaml
+
+# # operators
+#   - ../../secrets/home-dhe/operators/connectivity/teleport-kube-agent/teleport-kube-agent-join-token.yaml
+#   - ../../secrets/home-dhe/operators/gitops/renovate/renovate-token.yaml
+#   - ../../secrets/home-dhe/operators/monitoring/alertmanager/alertmanager-config.yaml
+#   - ../../secrets/home-dhe/operators/storage/etcd-backup/etcd-backup-config-env.yaml
+#   - ../../secrets/home-dhe/operators/storage/longhorn-backup/longhorn-backup-config-env.yaml
+
+# # projects
+#   - ../../secrets/home-dhe/projects/nextcloud/nextcloud-mariadb-auth.yaml
+#   - ../../secrets/home-dhe/projects/nextcloud/nextcloud-redis-auth.yaml
