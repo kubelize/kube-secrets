@@ -3,12 +3,24 @@ kind: Kustomization
 
 resources:
 
-# operators
-  - operators/connectivity/
-  - operators/monitoring/
-  - operators/storage/
+  # Monitoring
+  - alertmanager-config.yaml
 
-# projects
-  - projects/gameservers/minecraft/
-  - projects/nextcloud/
-  - projects/web-rcon/
+  # Storage
+  - etcd-backup-config-env.yaml
+  - longhorn-backup-config-env.yaml
+
+  # Connectivity
+  - teleport-kube-agent-join-token.yaml
+
+  # Game-Servers
+  - minecraft-rcon-password.yaml
+  - cf-api-token.yaml
+
+  # Web-Rcon
+  - rcon-config.yaml
+  
+  # Nextcloud
+  - nextcloud-mariadb-auth.yaml
+  - nextcloud-redis-auth.yaml
+
