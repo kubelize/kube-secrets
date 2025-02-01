@@ -15,9 +15,6 @@ resources:
 
   # GitOps
   - renovate-env.yaml
-
-  # Web-Rcon
-  - rcon-config.yaml
   
   # Nextcloud
   - nextcloud-mariadb-auth.yaml
