@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+    config.yaml: Y2x1c3RlcnM6CiAgIyBMaXN0IG9mIFByb3htb3ggY2x1c3RlcnMKICAtIHVybDogaHR0cHM6Ly8xMC4xMzAuNS4xMjA6ODAwNi9hcGkyL2pzb24KICAgICMgU2tpcCB0aGUgY2VydGlmaWNhdGUgdmVyaWZpY2F0aW9uLCBpZiBuZWVkZWQKICAgIGluc2VjdXJlOiB0cnVlCiAgICAjIFByb3htb3ggYXBpIHRva2VuCiAgICB0b2tlbl9pZDogImt1YmVybmV0ZXMtY3NpQHB2ZSFjc2kiCiAgICB0b2tlbl9zZWNyZXQ6ICI1YTQwODg2Yy02YWU3LTRkZGEtOWFiYS1mZjFjNDhjYTBlMzkiCiAgICAjIFJlZ2lvbiBuYW1lLCB3aGljaCBpcyBjbHVzdGVyIG5hbWUKICAgIHJlZ2lvbjogcHZlLWNsdXN0ZXItMDE=
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: proxmox-csi-plugin
+    namespace: csi-proxmox
