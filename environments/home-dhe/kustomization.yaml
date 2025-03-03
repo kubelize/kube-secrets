@@ -16,6 +16,10 @@ resources:
 
   # GitOps
   - renovate-env.yaml
+
+  # Game-Servers
+  - minecraft-rcon-password.yaml
+  - cf-api-token.yaml
   
   # Nextcloud
   - nextcloud-mariadb-auth.yaml
