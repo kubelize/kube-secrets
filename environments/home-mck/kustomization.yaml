@@ -7,8 +7,7 @@ resources:
   - alertmanager-config.yaml
 
   # Storage
-  - etcd-backup-config-env.yaml
-  - longhorn-backup-config-env.yaml
+  - csi-proxmox.yaml
 
   # Connectivity
   - teleport-kube-agent-join-token.yaml
