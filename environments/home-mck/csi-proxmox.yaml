@@ -1,0 +1,39 @@
+apiVersion: v1
+data:
+    config.yaml: ENC[AES256_GCM,data:Gt9OKEgeTuoyCECNSmmIhfyFsdVr/DhoOKjOAvN0+F/kV+NHYGp5b2u+kXXt2MsuR2v230flNjWhBZ1OawRTHX9l/sZjZusWPdA7OhrvA/MWmfjgApjj25L1SXCvhweh/uqNQSfxyePy0xDWwy9mGNdoDScUhkFzwfooKhOW7CefJT2ke4AduDaJ22WqJGOIe/p4V4fUyqluvR+0Cpl8ekJbxbV9fjYWmNs9CJd93A2b++SprwQQwpdNloR9r3iQRYQFelGk9dWGoIn9ReqDCj7o82iyf20kdrIXb4tzMFhWZWAFLxF9CIrAgDcxKXsZ3RDnPCXqKxBQjET4BnXjb3cenTldDDInkFGUtX+eomnR1Rt5Ckpk7MBpOGaJYqNnMTbXqoqUYPgQ8QZspqvklOH4uLye+H9dAj4urVBPCqQ9cj/MRGfbFeT3hYmTGdUM4YAaeoTYXi1KBAVMQQ8HQALGQNBL0F1LanOuMQMeaamZiryLZrqEPumbAiROPs2uCsXotU1AH26d1xIKOwa07xersD46+hdT6MTxuz44JaMVHGnovIpKH9t0q5j3YZU1znOyZ4iZHsfPKl5IO2NQnQ==,iv:94XjMYKC2uBi4kR0BIuypIB6jDu6KhQA0Olgmse2eag=,tag:7K6/frLASGyibbAtVbi18w==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: proxmox-csi-plugin
+    namespace: csi-proxmox
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2025-03-04T21:42:37Z"
+    mac: ENC[AES256_GCM,data:To8NjBgZsebJ7yysnnrr3qRBf3u4+n8o24GfO5OFt4jt9iISd/vL1ZSnGr+GV8E/vhtju1ZlfP8BH0/cstuc5ewVu8H7riUfO7zWZlFswKFfR7DMQOZfpAw+vlkIpPJjTWkujZ7L+iy4KKCHSTuI43N8Sk+KkBHHd0AexAffTm8=,iv:jHsM03XUMMDKGEGcuaNlm9mGeCyYDM/TMgEvupCe0uA=,tag:RQWwzJcncHoVP9zHBVlDiA==,type:str]
+    pgp:
+        - created_at: "2025-03-04T21:42:37Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMAwFcjQZ1ckKcARAA6Y1n+zJBVDdkwavKrud6BkFLmKp3Qsrm8mSlomLyAqqj
+            qo+AyYFGlsEKsl1vE9o3rmfKCY0uTMeOvdQkuODOpWqblnam6Do+s/DXgKMFYy2Y
+            f8+rDk2DMXCJCqKMrpq84SYx8ifsfCbdcrTFixzpii5uLAGkaVV7ORV8sqpMljlJ
+            0fBzIw9snEKMdovrKKEpFWISCqv+R8mYwTgjf7wlnCO3KRBQtyvSSH2JNZfyBkk2
+            YofcPfSrQ2w0WCLR7JZRT43Zd/6SSZw8s4Y89Z3mvonWgANQK1vOC/h0ZiICaesz
+            QmMmik6c0rdscUDKnvTZI7gVanaNLvTDgeBnIxa/Xr5J1bkNxzSpoUAMhdTRXMT3
+            VE2oMmj+a11NGHjEV8W7cfTAH6O3Yi3kLAbD656ezsKq4DCag8lbaCv1lmq7+Hli
+            YOVTwhtU1Tyau4cPEIJZUEc+K+372GyxfDIydHqYsuZ4E9tNb4Q/Y6K3SYiW4Xzj
+            s9ZPeNPHHDMdClLGBQ/1NPfG9090qglsmWyUbEIt/A8YNdXuClgTpmx8LeMeChR/
+            V7ZRRl8wOW1SFQyyBVeKOJqVZQwcDleyyBOWB6bqu3B2iLmHj33wyfz16q+JIibq
+            7XWOxQ3nxjMZ3VwuGdfIW8jVS9Bf0fbXUfyowCBOuEELzaKJeuE8LeYG7WjZ2s7S
+            XgEH0QsCIa9/XgfvNcURAo+k0OQ085wgi6C0iIidIuMEAyD78T1G5ifJYfSfhfa7
+            WZ5/Cnbkz0Y162Mkegn3/XijZjTOdP+Dr3rH/k9JIZb8/mYtEKsllFqJKk/AKfQ=
+            =+aqH
+            -----END PGP MESSAGE-----
+          fp: 4C460A5D1A91A52F3E204754CA746D9D4345890B
+    encrypted_regex: ^(data|stringData|secrets)$
+    version: 3.9.4
