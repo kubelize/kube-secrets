@@ -1,0 +1,43 @@
+apiVersion: v1
+data:
+    mariadb-password: ENC[AES256_GCM,data:B4aFsR4mKGVvcr03NUQOCbjV1slugyEP20fb+wdhv41JUnok,iv:Fog+PdZzYDOb6ncKKVYThtbrByOtMhBiGWMC0h6Dc3E=,tag:VjlbAuOHAd8Jh56oFa0LwA==,type:str]
+    mariadb-replication-password: ENC[AES256_GCM,data:JQi4wtRRuFlg5cP+jTKpCshqwAdrS1+78Y+cdh58r81JAHU0,iv:oYn70a7TsvVCmyTB/tNHJkf/4SQwdnw8hd2eoQut3BE=,tag:LM6xiOJxFqm51UZVEuffnQ==,type:str]
+    mariadb-root-password: ENC[AES256_GCM,data:1VSrju9UwmmnnETKbA5LxHmV5rKMuJMkUMGZ1wsCReCP5kW3,iv:ir8j3qIcRZxoKGdLQEEPJC5yz6u4tZh4N7Nye8au8ks=,tag:bpKI8aEtjXPoAYKdnlRkcw==,type:str]
+    mariadb-username: ENC[AES256_GCM,data:UdwetyZoUkxY/Gvx,iv:sOCtPXTuEWBYFhHFf1188AKe4IR9zsOWsWkQB3tthWI=,tag:JeetUDffVunRmReZoAPDUA==,type:str]
+kind: Secret
+metadata:
+    name: nextcloud-mariadb-auth
+    namespace: a01a-nextcloud
+type: Opaque
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2025-03-16T16:32:37Z"
+    mac: ENC[AES256_GCM,data:0ydkvkbzWDsUMsn1kZPIrI1ra51Y/nYnvT1qSrthR8LwMdFHjH0+ddJ4uiNJyQ1wwmGhPa384PR+baF2SvOqkB54EOEvz+KTLXQ55jrbFr85sZC2PoiQbcEr/ZQU1bNxTLhQEwFz5LSHAnY2CW+eiljNANkefQNBzuzcSxk779Y=,iv:GttRtLkDJ7fFY8ykv3IRawJKY2N3wfX7XlMBMzIK/DI=,tag:mCg3ZotgVTdDI5jmfZHolw==,type:str]
+    pgp:
+        - created_at: "2025-03-16T16:32:37Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMAwFcjQZ1ckKcAQ//VHmHOD4plnle2bstk741HNWIdr+/plANq4WqQCx/lYiq
+            5zsdGXyuj2HylWOZBiwB9bdx/uduxlk32F6JzqXoYNeVqSZM7/Z0z+meTcSRAFCt
+            XQVgpb/i369vNLQE8aQeZf7AUrDmCzCK/DGH3hEAk1my56Rlwwq6mUWNybtemfNF
+            nzgUzcg4Ea7S8JSc2YNgvBDCPGmsB9+3YsMfQWNL9ErigeTETxZksQW7CqlVsxxV
+            rY+nUdhcUSW/J/kqBza23BEL7vcJYrcCFRYzfpesSRkrStFTdd/tD2CYt5mRsm4P
+            K3t/2vvjVA5rgkiMOejb5nhYBi8hdP8t4DyNTe2/81wS9whgl3lwwitVUVk5wrbp
+            mJ/0AYpgcrO2Sulh+Hc+mDTTDwJBD9SxbXrrPXNTvrxjDw6AZn3ifHPEq1KhWN70
+            KY9iUnlv5sI8vSmUCwqEhwDDpidAaiH8sDILe7wKGybDqa1CPrlIyM6LI3jj1PXt
+            WtDOMx4pvjVDkLiShJFM22e3S6Fi1nsvIFpZIDGI420NmwfCi+U+k0YfZM0OyRUw
+            /vHr6QYctWsJFjio96dniVgdT+Xa9PquBOd7RvF2oV1X/b1ghULQNB4NN6Qovws6
+            3nueDSAXdY4ghBevcnymhGM1TI/Dat7XDXHhfC0SYH9iyhp7WtghseYXfTibg3rU
+            aAEJAhDx03zMHrGBZR8pASamjHEzFmvCSXNwfPqB6t4xGoPXjpppuRInlQ2tx4Ej
+            m1j9rWdGxxCLnHafGcc+6USWHNRu1eaxVf3IIP2fIspIeTFCzOMs78ZrPAGcR9rE
+            Ndq7SMap6Ljh
+            =s3+l
+            -----END PGP MESSAGE-----
+          fp: 4C460A5D1A91A52F3E204754CA746D9D4345890B
+    encrypted_regex: ^(data|stringData|secrets)$
+    version: 3.9.4

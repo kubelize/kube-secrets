@@ -1,0 +1,40 @@
+apiVersion: v1
+data:
+    redis-password: ENC[AES256_GCM,data:GBy/wG31m0EIao1mcjYkN4YIEaAr2r3+vwWv9WuRUyMLMhSi,iv:Oqfyg9F0DLndDFZSPcI4Dzt4I+ZKUIVGusb38be9Qr8=,tag:gPuXfbGI6pWu1KeHbn1OmA==,type:str]
+kind: Secret
+metadata:
+    name: nextcloud-redis-auth
+    namespace: a01a-nextcloud
+type: Opaque
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2025-03-16T16:32:26Z"
+    mac: ENC[AES256_GCM,data:N50J7Rt/cjIuS9F4YHWzhmlfZih7Xh99sc4uW2kaLqtUR+s6sPTiG+BablbWgOjKQpGONL3Sc7Y/WZDmX42KOhsknuuTM9Ds/XmMtvl0+ltfwk6i2EdoolQ9jBwpkKJUNQWPUyJS7l2PCS4Us2hf7dYw6dVnKxW/0KlPge+I1Bs=,iv:Y3vw/WaA+TnW3a9kUvlqdb4PH4Kq8oWGpTufJmvbn/E=,tag:dyF571pTqNkijr1rU3nWsQ==,type:str]
+    pgp:
+        - created_at: "2025-03-16T16:32:26Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMAwFcjQZ1ckKcAQ//YNNW4Ofqbeo2lEJAUw77ZdxVQbfHSSss2YWmqJeaXeh8
+            oLQkKHX5iY/8LWzc6oIpNClyF+vUsxw0WRRQaU9oi1IwIreA+jz6NJPRWUZXeEh9
+            IPjG46iJWgZIXwjMZb4oIL/kcYjhl9/sUOnLsMz3hMzu4dWpz1j1ruGPlIVhMhdB
+            qltQ3I6kcl60kSCzhkw7HK2EfgYNrj5rqByr1Q+oCIGXM5FsMf+tYS1Pr+hRND4F
+            fXFXW1ndD1fElRXsR5iIkw8hegVn9ZGr80DKQ4O3HAXHXnq6dQWx6PfLXQiQ0EAM
+            Ak2MfO7WGiK2D8o1xARDdyZnHlFBb8w0ERI+mrexbOuJ1Q9/zBh59pno3mIjiRIc
+            jODCrxUmm8/dj9KwEGOIDwVI2vpULeU1xdiBgOQz93ZckGa0JfAqSGHaibpym3YW
+            keobT2IotB/88T3stVVVE67/VcP1ko49kZCy/k1YYcsRjV67TKNqhVhgWb6aXmt1
+            cZqVhjqEmP0Vyu5wdaYOS/dkAZS5ZStsIzzoJxHWYxDMmIvCSqg6WOzYyWmJscAK
+            rCwzH5TrbpeN+bLnE+IFtNIM85Duf7IypOp+vn6PLMg/TnsZRDS4BZlLGqWETPlm
+            XjeMhYdTbU/wD1ZVk61dH/7U0m3KhYDGpj5OKiHwy3qYKhOcWI7VoHmjPm1OckPU
+            aAEJAhAHp9cEhDfgRaCOBA/+5IUuAyUYglBMv7VBMCNYDtPX9eaWS2PbM0XXGKcF
+            AwZ6WDk+H70kENEXcmmwszijoZyvDmImf7y7qiGyRY5MG330PMjYnCJnefq+Fg4s
+            RM0MFx4xYHua
+            =BYfy
+            -----END PGP MESSAGE-----
+          fp: 4C460A5D1A91A52F3E204754CA746D9D4345890B
+    encrypted_regex: ^(data|stringData|secrets)$
+    version: 3.9.4

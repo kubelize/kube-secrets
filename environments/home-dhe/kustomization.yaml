@@ -1,26 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 resources:
 
-  # Monitoring
-  - alertmanager-config.yaml
+  - operators/
+  - a01a/
 
-  # Storage
-  # - etcd-backup-config-env.yaml
-  # - longhorn-backup-config-env.yaml
-  - csi-proxmox.yaml
-
-  # Connectivity
-  - teleport-kube-agent-join-token.yaml
-
-  # GitOps
-  - renovate-env.yaml
-
-  # Game-Servers
-  - minecraft-rcon-password.yaml
-  - cf-api-token.yaml
-  
-  # Nextcloud
-  - nextcloud-mariadb-auth.yaml
-  - nextcloud-redis-auth.yaml
