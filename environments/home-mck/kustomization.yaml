@@ -3,6 +3,8 @@ kind: Kustomization
 
 resources:
 
+  - b01a/
+
   # Monitoring
   - alertmanager-config.yaml
 
