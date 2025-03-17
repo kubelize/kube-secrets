@@ -14,10 +14,6 @@ resources:
   # Connectivity
   - teleport-kube-agent-join-token.yaml
 
-  # Game-Servers
-  - minecraft-rcon-password.yaml
-  - cf-api-token.yaml
-
   # Web-Rcon
   - rcon-config.yaml
   
