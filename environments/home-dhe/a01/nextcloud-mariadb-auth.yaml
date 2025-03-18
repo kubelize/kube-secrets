@@ -7,7 +7,7 @@ data:
 kind: Secret
 metadata:
     name: nextcloud-mariadb-auth
-    namespace: a01a-nextcloud
+    namespace: a01-nextcloud
 type: Opaque
 sops:
     kms: []
