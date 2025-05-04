@@ -1,0 +1,16 @@
+    vanilla:
+      address: "vanilla-minecraft-minecraft-rcon.minecraft.svc.cluster.local:25575"
+      log: "rcon-vanilla-minecraft.log"
+      password: "ayayaynicePa11221w0rd"
+    rlcraft:
+      address: "rlcraft-minecraft-minecraft-rcon.minecraft.svc.cluster.local:25575"
+      log: "rcon-rlcraft-minecraft.log"
+      password: "ayayaynicePa11221w0rd"
+    atm9:
+      address: "atm9-minecraft-minecraft-rcon.minecraft.svc.cluster.local:25575"
+      log: "rcon-atm9-minecraft.log"
+      password: "ayayaynicePa11221w0rd"
+    icykhaye-prod:
+      address: "b02-paper-minecraft-prod-minecraft-rcon.b02-paper-minecraft.svc.cluster.local:25575"
+      log: "rcon-icykhaye-prod-minecraft.log"
+      password: "ayayaynicePa11221w0rd"
